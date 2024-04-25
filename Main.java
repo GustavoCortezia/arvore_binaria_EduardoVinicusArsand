@@ -3,7 +3,6 @@ package arvore_binaria_EduardoVinicusArsand;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		 ArvoreBin arvore = new ArvoreBin();
 	        arvore.inserir(10);
 	        arvore.inserir(5);

@@ -28,12 +28,10 @@ public class ArvoreBin {
 		} else {
 			if (valor < raiz.info) {
 				raiz.esq = inserir(valor, raiz.esq);
-				raiz.esq.pai = raiz;
 			}
 
 			if (valor > raiz.info) {
 				raiz.dir = inserir(valor, raiz.dir);
-				raiz.dir.pai = raiz;
 			}
 		}
 		return raiz;
